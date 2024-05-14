@@ -3,6 +3,7 @@
     height: 120px;
     margin-top: 128px;
     margin-left: 125px;
+    margin-bottom: 30px;
     text-align: left;
     font-family: Manrope;
     font-weight: 200;
@@ -10,26 +11,38 @@
     line-height: 60px;
 }
 
-.about-us-text {
+.header-logo {
+    width: 1150px;
+    height: 500px;
+    margin-left: 125px;
+    margin-bottom: 150px;
+    background-image: url(/resources/rectangle1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+.up-image-header-text {
+    width: 430px;
+    height: 81px;
+    padding-top: 379px;
+    padding-left: 40px;
+    text-align: left;
+    
+    color: white;
+    font-family: Manrope;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.text-about-us {
     width: 50px;
     height: 24px;
-    padding-top: 150px;
-    margin-left: 125px;
-    text-align: left;
     font-family: Manrope;
     font-weight: 200;
     font-size: 18px;
     line-height: 25px;
 }
 
-.about-us {
-    width: 1048px;
-    height: 367x;
-    margin-top: 983px;
-    margin-left: 128px;
-    text-align: left;
-    font-family: Manrope;
-    font-weight: 200;
-    font-size: 45px;
-    line-height: 61px;
-}
+
