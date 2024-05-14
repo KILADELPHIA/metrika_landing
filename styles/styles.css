@@ -1,0 +1,35 @@
+.first-main-text {
+    width: 956px;
+    height: 120px;
+    margin-top: 128px;
+    margin-left: 125px;
+    text-align: left;
+    font-family: Manrope;
+    font-weight: 200;
+    font-size: 60px;
+    line-height: 60px;
+}
+
+.about-us-text {
+    width: 50px;
+    height: 24px;
+    padding-top: 150px;
+    margin-left: 125px;
+    text-align: left;
+    font-family: Manrope;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.about-us {
+    width: 1048px;
+    height: 367x;
+    margin-top: 983px;
+    margin-left: 128px;
+    text-align: left;
+    font-family: Manrope;
+    font-weight: 200;
+    font-size: 45px;
+    line-height: 61px;
+}
