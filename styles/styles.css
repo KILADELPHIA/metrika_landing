@@ -51,7 +51,6 @@
 
 .description-about-us {
     width: 1048px;
-    height: 367px;
     margin-left: 128px;
     margin-bottom: 29px;
 
@@ -59,5 +58,47 @@
     font-weight: 200;
     font-size: 45px;
     line-height: 61px;
+}
+
+.more-services {
+    border-radius: 5px;
+    display: block;
+    border: 1px solid #AD1818;
+    background-color:#AD1818;
+    
+    width: 249px;
+    height: 67px;
+
+    margin-left: 125px;
+    margin-top: 29px;
+
+    font-family: Manrope;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 67px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.more-services:hover {
+    border-radius: 5px;
+    display: block;
+    border: 1px solid #AD1818;
+    background-color: white;
+    
+    width: 249px;
+    height: 67px;
+
+    margin-left: 125px;
+    margin-top: 29px;
+
+    font-family: Manrope;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 67px;
+    text-align: center;
+    text-decoration: none;
+    color: #AD1818;
 }
 
