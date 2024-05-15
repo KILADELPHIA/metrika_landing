@@ -1,3 +1,7 @@
+body {
+    font-family: Manrope;
+}
+
 .header-full {
     width: 1400px;
     margin: 0 auto;
@@ -111,6 +115,46 @@
     text-align: center;
     text-decoration: none;
     color: #AD1818;
-    
 }
 
+.projects {
+    margin-top: 150px;
+    margin-bottom: 31px;
+    width: 76px;
+    height: 24px;
+    
+    font-family: Manrope;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -3%;
+    text-align: left;   
+}
+
+.projects-full { 
+    margin-left: 125px;
+}
+
+.project1-image {
+    margin-bottom: 15px;
+    width: 1150px;
+    height: 450px;
+}
+
+.about-project1 {
+    width: 545px;
+    height: 41px;
+    margin-bottom: 15px;
+    font-size: 30px;
+    line-height: 41px;
+    letter-spacing: 0.03em;
+}
+
+.about1 { 
+    width: 124px;
+    height: 27px;
+    margin-bottom: 90px;
+    color: #AD1818;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+}
