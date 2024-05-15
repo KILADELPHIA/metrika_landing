@@ -20,8 +20,6 @@ body {
     font-size: 60px;
     line-height: 60px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);;
-    
-    
 }
 
 .header-logo {
@@ -33,9 +31,7 @@ body {
     background-image: url(/resources/rectangle1.png);
     background-size: contain;
     background-repeat: no-repeat;
-    box-shadow:  0px 10px 5px -4px rgba(0, 0, 0, 0.25);
-    
-    
+    box-shadow:  0px 10px 5px -4px rgba(0, 0, 0, 0.25); 
 }
 
 .up-image-header-text {
@@ -44,7 +40,6 @@ body {
     padding-top: 379px;
     padding-left: 40px;
     text-align: left;
-    
     color: white;
     font-family: Manrope;
     font-weight: 200;
@@ -117,7 +112,15 @@ body {
     color: #AD1818;
 }
 
-.projects {
+
+
+.item__block { 
+    display: block;
+    padding-left: 125px;
+
+}
+
+.item__title {
     margin-top: 150px;
     margin-bottom: 31px;
     width: 76px;
@@ -131,30 +134,33 @@ body {
     text-align: left;   
 }
 
-.projects-full { 
-    margin-left: 125px;
-}
-
-.project1-image {
-    margin-bottom: 15px;
+.item__image-1 {
+    padding-bottom: 15px;
     width: 1150px;
     height: 450px;
+
 }
 
-.about-project1 {
-    width: 545px;
+.item__name-1 {
+    width: 600px;
     height: 41px;
-    margin-bottom: 15px;
+    padding-bottom: 15px;
     font-size: 30px;
     line-height: 41px;
     letter-spacing: 0.03em;
+    
 }
 
-.about1 { 
-    width: 124px;
-    height: 27px;
-    margin-bottom: 90px;
+.item__link { 
     color: #AD1818;
     text-decoration: none;
     letter-spacing: 0.03em;
+}
+
+.item__content__block {
+    margin-bottom: 90px;
+}
+
+.item__button__more {
+   
 }
