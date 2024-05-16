@@ -175,7 +175,6 @@ body {
     line-height: 41px;
     letter-spacing: 0.03em;
 
-
     background-image: none;
     border-color: #AD1818;
     background-color: white;
@@ -185,4 +184,27 @@ body {
 .item__button__more:hover {
     background-color: #AD1818;
     color: white;
+}
+
+.services__block {
+    display: block;
+    box-sizing: border-box;
+    
+    padding-left: 125px;
+    height: 1844px;
+    background-color: #121212; 
+}
+
+.services__main__text {
+    width: 65px;
+    height: 24px;
+    line-height: 25px;
+    padding-left: 2px;
+    padding-top: 151px;
+    margin-bottom: 35px;
+
+    letter-spacing: 0.03em;
+    color: white;
+
+
 }
