@@ -162,5 +162,27 @@ body {
 }
 
 .item__button__more {
-   
+    border-style: solid;
+    display: block;
+    width: 1150px;
+    height: 153px;
+    margin-bottom: 150px;
+    cursor: pointer;
+
+    font-family: Manrope;
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 41px;
+    letter-spacing: 0.03em;
+
+
+    background-image: none;
+    border-color: #AD1818;
+    background-color: white;
+    color: #AD1818;
+}
+
+.item__button__more:hover {
+    background-color: #AD1818;
+    color: white;
 }
