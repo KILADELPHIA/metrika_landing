@@ -191,7 +191,10 @@ body {
     box-sizing: border-box;
     
     padding-left: 125px;
-    height: 1844px;
+    padding-right: 125px;
+    padding-top: 150px;
+    
+    height: 1810px;
     background-color: #121212; 
 }
 
@@ -200,11 +203,41 @@ body {
     height: 24px;
     line-height: 25px;
     padding-left: 2px;
-    padding-top: 151px;
     margin-bottom: 35px;
 
+    font-size: 18px;
     letter-spacing: 0.03em;
     color: white;
+}
 
+.service__image {
+    margin-bottom: 15px;
+    width: 1150px;
+    height: 270px;
+}
 
+.service__description {
+    width: 540x;
+    height: 41px;
+    line-height: 41px;
+    text-align: left;
+    margin-bottom: 60px;
+
+    font-size: 30px;
+    letter-spacing: 0.03em;
+    color: white;
+    font-weight: 200px;
+}
+
+.service__last__description {
+    width: 540x;
+    height: 41px;
+    line-height: 41px;
+    text-align: left;
+    margin-bottom: 110px;
+
+    font-size: 30px;
+    letter-spacing: 0.03em;
+    color: white;
+    font-weight: 200px;
 }
