@@ -23,6 +23,7 @@ body {
 }
 
 .header-logo {
+    position: relative;
     width: 1150px;
     height: 500px;
     margin-left: 125px;
@@ -35,10 +36,11 @@ body {
 }
 
 .up-image-header-text {
+    position: absolute;
     width: 430px;
     height: 81px;
-    padding-top: 379px;
-    padding-left: 40px;
+    bottom: 40px;
+    left: 40px;
     text-align: left;
     color: white;
     font-family: Manrope;
