@@ -253,7 +253,7 @@ body {
     width: 1200px;
     height: 26px;
     margin: 0 auto;
-    border: 1px solid red;
+    
 
     margin-top: 33px;
 
@@ -275,7 +275,7 @@ body {
 .nav {
     display: inline-block;
     vertical-align: top;
-    border: 1px solid red;
+   
     margin-left: 558px;
     
     
@@ -286,13 +286,12 @@ body {
     display: inline-block;
     width: 50px;
     height: 24px;
-    
+    text-decoration: none;
     line-height: 25px;
-  
-    
-    border: 1px solid red;
-    
+    opacity: 0.6;
+    color: #121212; 
 }
+
 
 .nav__link2 {
     display: inline-block;
@@ -301,8 +300,9 @@ body {
 
     line-height: 25px;
     margin-left: 61px;
+    text-decoration: none;
 
-    border: 1px solid red;
+    color: #121212; 
 }
 
 .nav__link3 {
@@ -312,8 +312,9 @@ body {
     
     line-height: 25px;
     margin-left: 63px;
+    text-decoration: none;
+    color: #121212; 
 
-    border: 1px solid red;
 }
 
 .nav__link4 {
@@ -322,6 +323,7 @@ body {
     height: 24px;
     line-height: 25px;
     margin-left: 61px;
-
-    border: 1px solid red;
+    text-decoration: none;
+    color: #121212; 
+   
 }
