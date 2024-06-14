@@ -357,6 +357,53 @@ body {
     letter-spacing: -3%;
     font-size: 30px;
     line-height: 41px;
-    color: #FFFFFF;
-    
+    color: #FFFFFF;   
 }
+
+.contacts__block {
+    height: 553px;
+
+}
+
+.contacts__info__block{
+    margin-top: 186px;
+    margin-left: 124px;
+
+    
+
+}
+
+.contact__text__logo {
+    width: 88px;
+    height: 24px;
+
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -3%;
+    text-align: left;
+    color: black;
+}
+
+.contact__number {
+    
+    padding-top: 33px;
+    padding-bottom: 30px;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -3%;
+    text-align: left;
+    color: black;
+}
+
+.contact__mail {
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -3%;
+    text-align: left;
+    color: black;
+    opacity: 0.6;
+
+    text-decoration: underline;
+    text-underline-offset: 9px;
+}
+
