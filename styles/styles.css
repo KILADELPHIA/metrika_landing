@@ -1,3 +1,8 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
 body {
     font-family: Manrope;
 }
@@ -245,7 +250,7 @@ body {
 }
 
 .navigation__block {
-
+    min-width: 1200px;
 }
 
 .nav__container {
@@ -325,5 +330,33 @@ body {
     margin-left: 61px;
     text-decoration: none;
     color: #121212; 
-   
+}
+
+.project__example {
+    position: relative;
+    height: 717px;
+    background-image: url(/resources/rectangle10.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+
+
+.example__container {
+    position: absolute;
+    width: 480px;
+    height: 82px;
+
+    left: 105px;
+    bottom: 60px
+
+}
+
+.example__text {
+    text-align: left;
+    letter-spacing: -3%;
+    font-size: 30px;
+    line-height: 41px;
+    color: #FFFFFF;
+    
 }
