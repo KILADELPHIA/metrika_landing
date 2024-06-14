@@ -384,9 +384,22 @@ body {
     color: black;
 }
 
+.contact__text__logo:before{
+    content: '';
+    display: block;
+    margin-bottom: 12px;
+    width: 24px;
+    height: 24px;
+
+    background-image: url(/resources/phone_logo.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .contact__number {
     
-    padding-top: 33px;
+    padding-top: 63px;
     padding-bottom: 30px;
     font-size: 60px;
     line-height: 60px;
