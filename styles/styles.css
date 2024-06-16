@@ -426,6 +426,8 @@ body {
 .bottom__block {
     height: 230px;
     background-color: #121212;
+
+    padding-top: 60px;
 }
 
 .navigation__bottom {
@@ -435,7 +437,6 @@ body {
     width: 470px;
     height: 24px;
 
-    padding-bottom: 60px;
     margin: 0 auto;
 }
 
@@ -456,5 +457,24 @@ body {
 
 .bottom__links:nth-child(1) {
     opacity: 0.6;
+}
+
+.name__bottom {
+    margin: 0 auto;
+
+    width: 400px;
+    height: 30px;
+
+    margin-top: 88px;
+
+    opacity: 0.6;
+    color: white;
+    font-size: 20px;
+    line-height: 27px;
+
+
+
+
+    
 }
 
