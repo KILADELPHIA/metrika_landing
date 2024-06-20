@@ -7,17 +7,28 @@ body {
     font-family: Manrope;
 }
 
+
+
 .header-full {
-    width: 1400px;
-    margin: 0 auto;
     box-sizing: border-box;
+}
+
+.about__us__block {
+    display: block;
+    box-sizing: border-box;
+    height: 1378px;
+}
+
+.about__us__wrapper {
+    margin: 0 auto;
+    width: 1150px;
 }
 
 .first-main-text {
     width: 956px;
     height: 120px;
     margin-top: 128px;
-    margin-left: 125px; 
+    
     margin-bottom: 30px;
     text-align: left;
     font-family: Manrope;
@@ -31,7 +42,7 @@ body {
     position: relative;
     width: 1150px;
     height: 500px;
-    margin-left: 125px;
+    
     margin-bottom: 150px;
     border-radius: 74px;
     background-image: url(/resources/rectangle1.png);
@@ -57,7 +68,7 @@ body {
 .text-about-us {
     width: 60px;
     height: 24px;
-    margin-left: 125px;
+    
     margin-bottom: 31px;
 
     font-family: Manrope;
@@ -68,7 +79,7 @@ body {
 
 .description-about-us {
     width: 1048px;
-    margin-left: 128px;
+    
     margin-bottom: 29px;
 
     font-family: Manrope;
@@ -86,7 +97,6 @@ body {
     width: 249px;
     height: 67px;
 
-    margin-left: 125px;
     margin-top: 29px;
 
     font-family: Manrope;
@@ -107,7 +117,7 @@ body {
     width: 249px;
     height: 67px;
 
-    margin-left: 125px;
+    
     margin-top: 29px;
 
     font-family: Manrope;
@@ -123,8 +133,13 @@ body {
 
 .item__block { 
     display: block;
-    padding-left: 125px;
+    box-sizing: border-box;
+    height: 2161px;
+}
 
+.item__wrapper {
+    margin: 0 auto;
+    width: 1150px;
 }
 
 .item__title {
@@ -203,9 +218,23 @@ body {
     
     height: 1810px;
     background-color: #121212; 
+
+   
+}
+
+.services__content__block {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.services__wrapper {
+    width: 1150px;
+    margin: 0 auto;
 }
 
 .services__main__text {
+
+
     width: 65px;
     height: 24px;
     line-height: 25px;
