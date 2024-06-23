@@ -240,6 +240,7 @@ body {
     padding-left: 125px;
     padding-right: 125px;
     padding-top: 150px;
+    padding-bottom: 120px;
     
     width: 100%;
     max-height: 1810px;
@@ -267,12 +268,52 @@ body {
 .services__wrapper {
     flex-basis: calc(50% - 10px);
     max-height: 328px;
+
+    position: relative;
 }
 
 
 .services__wrapper:nth-last-child(1),
 .services__wrapper:nth-last-child(2) {
     margin-bottom: 145px;
+}
+
+
+.price__wrapper {
+    display: flex;
+    
+    position: absolute;
+    padding-left: 30px;
+    padding-top: 30px;
+
+    
+
+    max-width: 180px;
+    width: 100%;
+    
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.price {
+    background-color: #AD1818;
+    color: #FFFFFF;
+    
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+    flex-basis: 165px;
+    
+    border-radius: 10px;
+}
+
+.description__service {
+    color: #FFFFFF;
+    font-size: 25px;
+    line-height: 34px;
+
+    padding-top: 15px;
 }
 
 
@@ -302,6 +343,36 @@ body {
     color: white;
 }
 
+.order__button {
+    border-radius: 5px;
+    display: block;
+    border: 1px solid #AD1818;
+    background-color:#AD1818;
+    
+
+    cursor: pointer;
+    max-width: 1150px;
+    width: 100%;
+    height: 153px;
+
+    margin: 0 auto;
+    
+    font-size: 30px;
+
+    font-family: Manrope;
+    font-weight: 200;
+    
+    line-height: 67px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+
+}
+
+.order__button:hover {
+    background-color:#FFFFFF;
+    color:#AD1818;
+}
 
 .navigation__block {
     min-width: 1200px;
@@ -619,6 +690,7 @@ body {
         padding-left: 15px;
         padding-right: 3px;
         padding-top: 90px;
+        padding-bottom: 70px;
  
     }
 
@@ -646,6 +718,37 @@ body {
     }
    
 
+    .price__wrapper {
+    
+        padding-left: 15px;
+        padding-top: 20px;
+    
+        
+    }
+    
+    .price {
+        background-color: #AD1818;
+        color: #FFFFFF;
+        
+        text-align: center;
+        line-height: 40px;
+        font-size: 15px;
+        flex-basis: 140px;
+        
+        border-radius: 10px;
+    }
+
+
+    .description__service {
+        font-size: 20px;
+    }
+
+
+    .order__button {
+        width: 100%;
+        height: 90px;
+        font-size: 23px;
+    }
 
 }
 
@@ -754,6 +857,7 @@ body {
     .services__block {
         padding-right: 15px;
         padding-top: 30px;
+        padding-bottom: 50px;
     }
 
     .services__content__block {
@@ -777,6 +881,41 @@ body {
     .services__main__text {
         font-size: 12px;
         margin-bottom: 20px;
+    }
+
+
+    .price__wrapper {
+    
+        padding-left: 5px;
+        padding-top: 15px;
+    
+        
+    }
+    
+    .price {
+        background-color: #AD1818;
+        color: #FFFFFF;
+        
+        text-align: center;
+        line-height: 40px;
+        font-size: 15px;
+        flex-basis: 145px;
+        
+        border-radius: 10px;
+    }
+
+    .description__service {
+        
+        font-size: 18px;
+        padding-top: 12px;
+    }
+
+
+    .order__button {
+        width: 100%;
+        height: 70px;
+        font-size: 19px;
+        margin-top: 75px;
     }
 
 }
