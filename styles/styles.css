@@ -242,7 +242,8 @@ body {
     padding-top: 150px;
     
     width: 100%;
-    height: 1810px;
+    max-height: 1810px;
+    height: 100%;
     background-color: #121212; 
 
    
@@ -250,28 +251,28 @@ body {
 
 .services__content__block {
     display: flex;
-    
     flex-wrap: wrap;
-    justify-content: space-between;
-    
     
     max-width: 1150px;
-    width: 100%;
     margin: 0 auto;
+    height: auto;
 
+    row-gap: 145px;
+    column-gap: 10px;
+    
 
     
 }
 
 .services__wrapper {
-    width: calc(50% - 5px);
-    height: 100%;
-    margin-bottom: 145px;
+    flex-basis: calc(50% - 10px);
+    max-height: 328px;
 }
 
+
 .services__wrapper:nth-last-child(1),
-.services__wrapper:nth-child(3) {
-    margin-bottom: 0px;
+.services__wrapper:nth-last-child(2) {
+    margin-bottom: 145px;
 }
 
 
@@ -279,11 +280,13 @@ body {
 .service__image {
     width: 100%;
     height: 100%;
-
-    
 }
 
-
+.text_services_wrapper {
+    max-width: 1150px;
+    width: 100%;
+    margin: 0 auto;
+}
 
 .services__main__text {
 
@@ -609,6 +612,41 @@ body {
         height: 110px;
         font-size: 26px;
     }
+
+    
+    .services__block {
+        
+        padding-left: 15px;
+        padding-right: 3px;
+        padding-top: 90px;
+ 
+    }
+
+
+    .services__content__block {
+        
+        
+        row-gap: 130px;
+        column-gap: 10px;
+    }
+    
+    .services__wrapper {
+        flex-basis: calc(50% - 10px);
+        max-height: 328px;
+    }
+    
+    
+    .services__wrapper:nth-last-child(1),
+    .services__wrapper:nth-last-child(2) {
+        margin-bottom: 130px;
+    }
+
+    .services__main__text {
+        font-size: 15px;
+    }
+   
+
+
 }
 
 @media (max-width: 375px) {
@@ -712,5 +750,33 @@ body {
         font-size: 18px;
         line-height: 20px;
     }
+
+    .services__block {
+        padding-right: 15px;
+        padding-top: 30px;
+    }
+
+    .services__content__block {
+        
+        flex-direction: column;
+        row-gap: 95px;
+        
+    }
     
+    .services__wrapper {
+        flex-basis: calc(50% - 10px);
+        max-height: 328px;
+    }
+    
+    
+    .services__wrapper:nth-last-child(1),
+    .services__wrapper:nth-last-child(2) {
+        margin-bottom: 0px;
+    }
+
+    .services__main__text {
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+
 }
