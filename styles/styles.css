@@ -425,11 +425,12 @@ body {
 }
 
 
-.last__row {
+.row__last {
 
     
     display: flex;
     flex-direction: column;
+    column-gap: 0px;
 }
 
 
@@ -1018,7 +1019,7 @@ body {
         flex-basis: 0px;
     }
 
-    .last__row {
+    .row__last {
         margin-top: 80px;
     }
 }
