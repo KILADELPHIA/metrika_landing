@@ -11,10 +11,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="styles/styles.css">
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <link rel="icon" href="">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
+
+    
+
 </head>
 <body>
     
@@ -175,8 +182,35 @@
                     <h3 class="recall__text">Яна, проект 120 кв.м.</h3>
                     <p class="recall__description">Хотелось бы сказать большое спасибо за проделанную работу! В задачу Марины входила разработка дизайн-проекта в минимальные сроки, и мне, конечно, не хотелось при этом потерять качество выполнения работы. Но волнения были напрасны: все вопросы решались оперативно, всегда предлагалось несколько вариантов решения, а также предоставлялись комментарии, какой способ решения будет более подходящим.
                         В итоге проект был сдан в оговоренный срок, и мне просто не терпится приступить к его реализации! Проект получился очень стильным и современным! Буду рекомендовать Вас тем, кому еще предстоит это непростое дело - ремонт!
+                </div>
             </div>
         </div>
+
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    
+                    <img class="swiper__image" src="/resources/rectangle10.png" alt="Slide1">
+                    <div class="slide__wrapper">
+                        <p class="slide__title">ГАЛЕРЕЯ ПРОЕКТОВ</p>
+                    </div>
+                </div>    
+                <div class="swiper-slide">
+                    <img class="swiper__image" src="/resources/rectangle11.png" alt="Slide2">
+                </div>
+                <div class="swiper-slide">
+                    <img class="swiper__image" src="/resources/rectangle12.png" alt="Slide3">
+                </div>
+                <div class="swiper-slide">
+                    <img class="swiper__image" src="/resources/rectangle13.png" alt="Slide4">
+                </div>
+            </div>
+            
+            <div class="swiper-button-next"></div> 
+            <div class="swiper-button-prev"></div>
+            
+          </div>
+        
 
         <!-- 
             <div class="project__example">
@@ -205,5 +239,9 @@
                 </div>
             </div> -->
         </div>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="/swiper.js"></script>
 </body>
 </html>
