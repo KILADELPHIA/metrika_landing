@@ -63,7 +63,7 @@
     padding-top: 4px;
     font-size: 18px;
     line-height: 25px;
-    
+    margin-bottom: 60px;
 }
 
 .send-order__button {
@@ -90,6 +90,24 @@
     color: white;
 }
 
+.input__wrapper {
+    display: flex;
+    flex-direction: column;
+
+    row-gap: 40px;
+}
+
+.input-popup {
+    font-family: Manrope;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 34px;
+    outline: none;
+    box-sizing: border-box;
+    
+    border: none;
+    border-bottom: 1px solid black;
+}   
 
 @media (max-width: 960px) {
 
@@ -119,6 +137,11 @@
         font-size: 14px;
         line-height: 17px;
 
+    }
+
+    .input-popup {
+        font-size: 14px;
+        line-height: 25px;
     }
 }
 
