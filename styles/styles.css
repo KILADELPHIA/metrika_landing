@@ -11,6 +11,9 @@ body {
     font-family: Manrope;
 }
 
+body.body_fixed {
+    overflow: hidden;
+}
 
 
 .header-full {
