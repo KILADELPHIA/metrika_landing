@@ -532,6 +532,7 @@ body.body_fixed {
 .nav__container {
     display: flex;
     justify-content: space-between;
+    position: relative;
     
 
     max-width: 1150px;
