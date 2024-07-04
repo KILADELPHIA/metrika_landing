@@ -26,23 +26,30 @@
 <body>
     
         <div class="header-full">
-            <!-- <div class="navigation__block">
-                <div class="nav__container">
-                    <a class="logo__link" href="/">
-                        <img class="logo__image" srcset="/resources/logo/metrika.png,
-                        /resources/logo/metrika@2x.png 2x"
-                        src ="/resources/logo/metrika.png" 
-                        alt="Logo Image">
-                    </a>
-                    <div class="nav">
-                        <a href="#about__us" class="nav__link1">О НАС</a>
-                        <a href="#projects" class="nav__link2">ПРОЕКТЫ</a>
-                        <a href="#services" class="nav__link3">УСЛУГИ</a>
-                        <a href="#contacts" class="nav__link4">КОНТАКТЫ</a>
-                    </div>
+            
+        <div class="navigation__block">
+            <div class="nav__container">
+                <a class="logo__link" href="/">
+                    <img class="logo__image" srcset="/resources/logo/metrika.png,
+                    /resources/logo/metrika@2x.png 2x"
+                    src ="/resources/logo/metrika.png" 
+                    alt="Logo Image">
+                </a>
+                <div class="nav">
+                    <a href="#about__us" class="nav__link1">О НАС</a>
+                    <a href="#projects" class="nav__link">ПРОЕКТЫ</a>
+                    <a href="#services" class="nav__link">УСЛУГИ</a>
+                    <a href="#contacts" class="nav__link">КОНТАКТЫ</a>
                 </div>
-            </div> --> 
+                <button class="js-burger-btn burger-btn"></button>
+            </div>
+        </div> 
+        
+        <div class="js-burger burger "> 
+            <div class="js-burger__content burger__content">
 
+            </div>
+        </div>
 
 
         <div class="popup js-popup">
@@ -119,7 +126,7 @@
                     <h1 class="item__name-1">ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022</h1>
                     <a class='item__link' href="">Подробнее →</a>
                 </div>
-                <button class="item__button__more">Смотреть все проекты</button>
+                <a href="#swiper_all_projects" style="text-decoration: none;"><button class="item__button__more">Смотреть все проекты</button></a>
             </div>
         </div>  
 
@@ -216,7 +223,7 @@
             </div>
         </div>
 
-        <div class="swiper mySwiper">
+        <div id="swiper_all_projects" class="swiper mySwiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     
@@ -292,5 +299,6 @@
         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
         <script src="/swiper.js"></script>
         <script src="/popup.js"></script>
+        <script src="/burger.js""></script>
 </body>
 </html>

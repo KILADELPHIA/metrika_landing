@@ -1,5 +1,5 @@
 @import "/styles/popup.css";
-
+@import "/styles/burger.css";
 
 
 html {
@@ -529,16 +529,13 @@ body.body_fixed {
 
 
 
-
-
-.navigation__block  {
-    min-width: 1200px;
-    
-}
-
 .nav__container {
+    display: flex;
+    justify-content: space-between;
     
-    width: 1200px;
+
+    max-width: 1150px;
+    width: 100%;
     height: 26px;
     margin: 0 auto;
     
@@ -548,30 +545,15 @@ body.body_fixed {
 
 }
 
-.logo__link {
-    display: inline-block;
-}
+
 
 .logo__image {
     display: block;
     width: 127px;
     height: 22px;
-
-
-}
-
-.nav {
-    display: inline-block;
-    vertical-align: top;
-   
-    margin-left: 558px;
-    
-    
-    
 }
 
 .nav__link1 {
-    display: inline-block;
     width: 50px;
     height: 24px;
     text-decoration: none;
@@ -581,39 +563,18 @@ body.body_fixed {
 }
 
 
-.nav__link2 {
-    display: inline-block;
+.nav__link {
     width: 76px;
     height: 24px;
 
     line-height: 25px;
     margin-left: 61px;
     text-decoration: none;
-
     color: #121212; 
 }
 
-.nav__link3 {
-    display: inline-block;
-    width: 65px;
-    height: 24px;
-    
-    line-height: 25px;
-    margin-left: 63px;
-    text-decoration: none;
-    color: #121212; 
 
-}
 
-.nav__link4 {
-    display: inline-block;
-    width: 86px;
-    height: 24px;
-    line-height: 25px;
-    margin-left: 61px;
-    text-decoration: none;
-    color: #121212; 
-}
 
 
 .contacts__block {
@@ -772,6 +733,12 @@ body.body_fixed {
         padding-left: 15px;
         padding-right: 15px;
         }
+
+
+    .nav {
+        display: none;
+    }
+    
 
     .about__us__block {
         padding-left: 15px;
@@ -932,6 +899,11 @@ body.body_fixed {
         line-height: 27px;
     }
 
+    .slide__wrapper-title {
+        padding-left: 10px;
+        
+    }
+
 }
 
 
@@ -943,6 +915,9 @@ body.body_fixed {
         padding-left: 13px;
         padding-right: 13px;
         }
+
+
+
 
     .about__us__block {
         padding-left: 13px;
@@ -1146,4 +1121,17 @@ body.body_fixed {
     }
 
 
+
+    .contact__number {
+        font-size: 30px;
+    }
+
+    .contact__mail {
+        font-size: 24px;
+    }
+
+    .slide__wrapper-title {
+        padding-left: 10px;
+
+    }
 }
