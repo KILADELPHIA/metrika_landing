@@ -1,6 +1,5 @@
-@import "/styles/popup.css";
-@import "/styles/burger.css";
-
+@import "./popup.css";
+@import "./burger.css";
 
 html {
     scroll-behavior: smooth;
@@ -63,7 +62,7 @@ body.body_fixed {
     
     margin-bottom: 150px;
     border-radius: 74px;
-    background-image: url(/resources/rectangle1.png);
+    background-image: url("../resources/rectangle1.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -638,7 +637,7 @@ body.body_fixed {
     content: ' ';
     position: absolute;
 
-    background-image: url(/resources/phone_logo.png);
+    background-image: url(../resources/phone_logo.png);
 
     width: 24px;
     height: 24px;
@@ -666,7 +665,7 @@ body.body_fixed {
     content: ' ';
     position: absolute;
 
-    background-image: url(/resources/mail_logo.png);
+    background-image: url(../resources/mail_logo.png);
 
     width: 20px;
     height: 16px;
